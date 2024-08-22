@@ -1,0 +1,129 @@
+.container {
+  background-color: yellowgreen;
+  background-size: cover;
+}
+
+.road {
+  width: 400px;
+  height: 100vh;
+  background-color: black;
+  margin: auto;
+  position: relative;
+  border-left: 7px dashed white;
+  border-right: 7px dashed white;
+}
+
+.car {
+  width: 50px;
+  height: 80px;
+  background-color: black;
+  position: absolute;
+  bottom: 120px;
+  background-image: url(player\ \(2\).png);
+  background-size: cover;
+}
+
+.vehicle {
+  width: 50px;
+  height: 80px;
+  background-color: black;
+  position: absolute;
+  bottom: 120px;
+  background-image: url(enemy\ \(2\).png);
+  background-size: cover;
+}
+
+.line {
+  width: 10px;
+  height: 100px;
+  position: absolute;
+  background-color: white;
+  margin-left: 195px;
+}
+
+body {
+  background-color: #f1f1f1;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  overflow: hidden; /* Prevent scrolling */
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  overflow: hidden; /* Prevent scrolling */
+}
+
+.start-container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 5px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 36px;
+  margin-top: 0;
+}
+
+p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+button {
+  font-size: 24px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.helpbutton {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  color: white;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+
+
+button:hover {
+  background-color: #45a049;
+}
+
+.game-container {
+  flex-grow: 1;
+  position: relative;
+  overflow: hidden; /* Prevent scrolling */
+  margin-top: 0;
+}
+#instructions {
+  margin: auto;
+  text-align: center;
+}
+
+#instructions h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#instructions ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#instructions ul li {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+
+
+
+
